@@ -170,11 +170,15 @@ namespace BoxField
                     gameLoop.Stop();
                 }
             }
-
             #endregion
 
             Refresh();
         }
+
+        //private void GameScreen_KeyPress(object sender, KeyPressEventArgs e)
+        //{
+
+        //}
 
         private void GameScreen_Paint(object sender, PaintEventArgs e)
         {

@@ -35,9 +35,9 @@ namespace BoxField
             }
         }
 
-        public Boolean Collision (Box b)
+        public Boolean Collision (Box b1)
         {
-            if (rec.IntersectsWith(b.rec))
+            if (rec.IntersectsWith(b1.rec))
             {
                 return true;
             }
